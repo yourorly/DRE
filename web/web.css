@@ -1,0 +1,40 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@400..800&display=swap');
+
+body {
+    padding: 0in;
+}
+#back{
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    background-image: linear-gradient(180deg, black, rgba(0, 0, 0, 0.89), transparent, transparent)
+    , url(../Res/img/bg.png);
+    padding-top: 2in;
+}
+
+.navtitle {
+    font-family: 'Eczar';
+    font-weight: bold;
+}
+
+#mainloginbox {
+    background-color: rgba(0, 0, 0, 0.662);
+    text-align: center;
+    border-radius: 2in;
+    padding: 1in 1in;
+    margin: auto auto;
+    display: block;
+}
+
+#mainloginbox label {
+    margin-top: 30px;
+}
+
+#mainloginbox button {
+    margin-top: 30px;
+}

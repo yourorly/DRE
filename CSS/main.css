@@ -1,0 +1,32 @@
+body{
+    padding: 0%;
+}
+
+nav #navdiv {
+    background-color: rgb(255, 235, 193);
+    border-radius: 20px;
+    padding: 5px 5px;
+}
+
+nav #navdiv img {
+    width:40px;
+    text-align: center;
+    margin: auto auto;
+    display: block;
+}
+
+nav #navdiv .vl {
+    font-size: 25px;
+    display: none;
+  }
+
+@media (min-width: 575px) {
+    nav #navdiv .vl {
+        display: block;
+    }
+    nav #navdiv {
+        background-color: rgb(255, 235, 193);
+        border-radius: 50px;
+        padding: 5px 5px;
+        }
+}

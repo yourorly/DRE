@@ -1,0 +1,35 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@400..800&display=swap');
+
+body{
+    padding: 0%;
+}
+
+nav #navdiv {
+    background-color: rgba(255, 235, 193, 0.589);
+    border-radius: 50px;
+    padding: 5px 5px;
+}
+
+nav #navdiv img {
+    width:40px;
+    margin: auto auto;
+    display: block;
+}
+
+#mainloginbox {
+    background-color: rgba(0, 0, 0, 0.662);
+    text-align: center;
+    border-radius: 2in;
+    padding: 1in 1in;
+    margin: auto auto;
+    display: block;
+}
+
+#mainloginbox label {
+    margin-top: 30px;
+}
+
+#mainloginbox button {
+    margin-top: 30px;
+}
